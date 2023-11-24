@@ -2,17 +2,9 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
+    username: { type: String, required: true, unique: true },
     email: { type: String, unique: true, required: true },
-    passwordHash: { type: String, required: true },
-    phone: String,
-    isAdmin: { type: Boolean, default: false },
-    street: String,
-    apartment: String,
-    zip: String,
-    city: String,
-    country: String,
-    status: { type: String, default: "active", enum: ["active", "inactive", "deleted"], required: true },
+    password: { type: String, required: true },
   },
   {
     timestamps: true,

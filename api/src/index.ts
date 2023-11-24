@@ -1,12 +1,11 @@
 import "dotenv/config";
 import cors from "cors";
 import morgan from "morgan";
-import express from "express";
+import express, { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
-import requireAuth from "./middleware/authMiddleware";
 
-// admin routers
-import authAdminRouter from "./routes/admin/auth";
+import protect from "./middleware/authMiddleware";
+import authRouter from "./routes/auth.router";
 
 // public routers
 import userRouter from "./routes/public/user";
@@ -24,10 +23,32 @@ app.use(morgan("dev"));
 app.use(express.static("public"));
 
 // public routes
-app.use(API_PREFIX, authAdminRouter);
+app.use(API_PREFIX, authRouter); // login, signup
 
 // protected routes
-app.use(API_PREFIX, requireAuth, userRouter);
+app.use(API_PREFIX, protect, userRouter);
+
+// error middleware handler
+app.use((err: any, req: Request, res: Response, next: NextFunction) => {
+  const statusCode = (err.statusCode as number) || 500;
+  const message = err.message || "Internal Server Error";
+
+  res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message,
+  });
+});
+
+app.on("uncaughtException", (err: any) => {
+  console.error("There was an uncaught error", err);
+  process.exit(1);
+});
+
+app.on("unhandledRejection", (err: any) => {
+  console.error("There was an uncaught error", err);
+  process.exit(1);
+});
 
 mongoose
   .connect(process.env.MONGO_URI || "")

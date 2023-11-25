@@ -6,9 +6,9 @@ function Header() {
         <header className="bg-slate-200 shadow-md">
             <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
                 <Link to={'/'}>
-                    <h1 className="font-bold text-sm:text-xl flex flex-wrap">
-                        <span className="text-slate-500">Pal</span>
-                        <span className="text-slate-700">Estate</span>
+                    <h1 className="font-bold text-sm:text-xl flex flex-wrap" style={{ border: "1px solid #edd", padding: "5px", borderRadius: "10px", backgroundColor: "#ddd" }}>
+                        <span style={{ fontStyle: "italic", color: "darkgreen" }}>Paul</span>
+                        <span style={{ fontStyle: "italic", color: "darkgoldenrod" }}>Estate</span>
                     </h1>
                 </Link>
                 <form className="bg-slate-100 p-3 rounded-lg flex items-center">
@@ -37,12 +37,6 @@ function Header() {
                             Sign In
                         </li>
                     </Link>
-                    <Link to={'/sign-up'}>
-                        <li className='hidden sm:inline text-slate-700 hover:underline'>
-                            Sign Up
-                        </li>
-                    </Link>
-
                 </ul>
             </div>
         </header>

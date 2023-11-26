@@ -7,6 +7,7 @@ import { useSnackbar } from 'notistack';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { signInStart, signInSuccess, signInFailure } from '../redux/user/userSlice';
+import OAuth from '../components/OAuth';
 
 import styles from "./styles.module.css";
 
@@ -19,7 +20,7 @@ const GoogleSVGIcon = () => (
 function SignIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const { loading, error } = useSelector((state: any) => state.user);
+    const { loading } = useSelector((state: any) => state.user);
 
     const { enqueueSnackbar } = useSnackbar();
     const navigate = useNavigate();
@@ -83,15 +84,7 @@ function SignIn() {
                 >
                     Sign In
                 </LoadingButton>
-                <LoadingButton
-                    loading={false}
-                    loadingPosition="start"
-                    startIcon={<GoogleSVGIcon />}
-                    variant="contained"
-                    style={{ backgroundColor: "maroon", color: "white" }}
-                >
-                    Login with Google
-                </LoadingButton>
+                <OAuth />
             </form>
             <div style={{ marginTop: "10px" }}>
                 Don't have account? <span style={{ color: "darkblue", fontWeight: "bold" }}><Link to={"/sign-up"}>Sign Up</Link></span>

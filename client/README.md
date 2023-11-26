@@ -35,3 +35,5 @@ export default {
 - yarn add -D tailwindcss
 - npx tailwindcss init
 - npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
+
+- Add Google OAuth functionality

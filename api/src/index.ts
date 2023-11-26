@@ -26,7 +26,7 @@ app.use(express.static("public"));
 app.use(API_PREFIX, authRouter); // login, signup
 
 // protected routes
-app.use(API_PREFIX, protect, userRouter);
+app.use(API_PREFIX, userRouter);
 
 // error middleware handler
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {

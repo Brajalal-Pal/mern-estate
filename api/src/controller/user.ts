@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import User from "../model/user";
 
 export const getUsers = async (req: Request, res: Response) => {
-  const users = await User.find({ status: { $in: ["active", "inactive"] } }).select("-passwordHash");
+  const users = await User.find().select("-password");
 
   res.json({
     message: "success",
@@ -22,7 +22,7 @@ export const getUserById = async (req: Request, res: Response) => {
     });
   }
 
-  const user = await User.findById(req.params.id).select("-passwordHash");
+  const user = await User.findById(req.params.id).select("-password");
 
   if (user) {
     res.json({

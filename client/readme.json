@@ -1,0 +1,53 @@
+{
+    "user": {
+        "uid": "KcsVacLjdIcJHY2ugQH9Fi7SAkX2",
+        "email": "brajalal.pal@gmail.com",
+        "emailVerified": true,
+        "displayName": "Brajalal Pal",
+        "isAnonymous": false,
+        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocIyu9yxXAi1qdzc6AJgxZY7dWoOd-hxKCUrreLXN5hE=s96-c",
+        "providerData": [
+            {
+                "providerId": "google.com",
+                "uid": "118210333416058869232",
+                "displayName": "Brajalal Pal",
+                "email": "brajalal.pal@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocIyu9yxXAi1qdzc6AJgxZY7dWoOd-hxKCUrreLXN5hE=s96-c"
+            }
+        ],
+        "stsTokenManager": {
+            "refreshToken": "AMf-vByzC_MWasvvrDoaKpJddiuBo1IAd4wkszR5OJTVqW9jJCzBi8CagE5Yfky1Lan0KTfKmxLh_PEB-YWisS3XDdUR0PM738E4awXC2ZUZLy8Gq3TE45RBL4dgteKgdGGODh2Q-qZJFzuSUAdJSsyS-aajaKbjnge1LgVjzqo6UaoUpyEzHUybG3V8wsakMf6SpjCnCvJpmBWOAFtb6ti8LVWU1tbl8JRMAiPO6p119Y7Alvd15YVTALebsKa7TCj8j7ph13n6_606hgjJuJr-pW0hY2_tB3lpmpW18L9n0ikQ9XtQmzWsEv2P9InvBN587FEUeA_VdRhxAs-2Bd40GJ74KUezra93JC2H4xmKAkSp_iZde1-s8tPXJEB02I9GV4m3fdY5QkfSZuXMacR0Ub93f1R_vcGmLg1rnDlhHrF6Xb2zIVI",
+            "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE2YzYzNTNmMmEzZWMxMjg2NTA1MzBkMTVmNmM0Y2Y0NTcxYTQ1NTciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQnJhamFsYWwgUGFsIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0l5dTl5eFhBaTFxZHpjNkFKZ3haWTdkV29PZC1oeEtDVXJyZUxYTjVoRT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9tZXJuLWVzdGF0ZS1hcHAxIiwiYXVkIjoibWVybi1lc3RhdGUtYXBwMSIsImF1dGhfdGltZSI6MTcwMDk4MTkzMywidXNlcl9pZCI6Iktjc1ZhY0xqZEljSkhZMnVnUUg5Rmk3U0FrWDIiLCJzdWIiOiJLY3NWYWNMamRJY0pIWTJ1Z1FIOUZpN1NBa1gyIiwiaWF0IjoxNzAwOTgxOTMzLCJleHAiOjE3MDA5ODU1MzMsImVtYWlsIjoiYnJhamFsYWwucGFsQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTE4MjEwMzMzNDE2MDU4ODY5MjMyIl0sImVtYWlsIjpbImJyYWphbGFsLnBhbEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.BWtpHpVvMq7iGj_ocokXCksmJhXvSDxBIcQdwd8ncWzVJjtCqMv6BkHnwqTwyo23G_PMohXw3ygGLOWv8q2r0LfRL18vGXvIMGtj3SkozYLrvu0V8MIUvsZU_pb4MnQWuNhhGg4LBeqfPq0JZ13p2t7rw-lQJepJWvwG7VqK0u78oNj2OVGU9raDDtXX5rElOZerl6-2IgxtwzXdIaFZjkzwapvRpjqw9A9RD7hPC8L3mRpX55HbVGU9RyJKeA9oDAbYe5hoG4w6kRUHu9seiNTLkFFibqH-C8TCLHpZBkVRwQEBR8ypy-AmddTb2iAGSw1mxEygbtCHb39ToaG6Ow",
+            "expirationTime": 1700985534222
+        },
+        "createdAt": "1700981933836",
+        "lastLoginAt": "1700981933837",
+        "apiKey": "AIzaSyB4j2Auzmk1Aj7MPwFTK-4s8FWSO5oYQWE",
+        "appName": "[DEFAULT]"
+    },
+    "providerId": "google.com",
+    "_tokenResponse": {
+        "federatedId": "https://accounts.google.com/118210333416058869232",
+        "providerId": "google.com",
+        "email": "brajalal.pal@gmail.com",
+        "emailVerified": true,
+        "firstName": "Brajalal",
+        "fullName": "Brajalal Pal",
+        "lastName": "Pal",
+        "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIyu9yxXAi1qdzc6AJgxZY7dWoOd-hxKCUrreLXN5hE=s96-c",
+        "localId": "KcsVacLjdIcJHY2ugQH9Fi7SAkX2",
+        "displayName": "Brajalal Pal",
+        "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE2YzYzNTNmMmEzZWMxMjg2NTA1MzBkMTVmNmM0Y2Y0NTcxYTQ1NTciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQnJhamFsYWwgUGFsIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0l5dTl5eFhBaTFxZHpjNkFKZ3haWTdkV29PZC1oeEtDVXJyZUxYTjVoRT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9tZXJuLWVzdGF0ZS1hcHAxIiwiYXVkIjoibWVybi1lc3RhdGUtYXBwMSIsImF1dGhfdGltZSI6MTcwMDk4MTkzMywidXNlcl9pZCI6Iktjc1ZhY0xqZEljSkhZMnVnUUg5Rmk3U0FrWDIiLCJzdWIiOiJLY3NWYWNMamRJY0pIWTJ1Z1FIOUZpN1NBa1gyIiwiaWF0IjoxNzAwOTgxOTMzLCJleHAiOjE3MDA5ODU1MzMsImVtYWlsIjoiYnJhamFsYWwucGFsQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTE4MjEwMzMzNDE2MDU4ODY5MjMyIl0sImVtYWlsIjpbImJyYWphbGFsLnBhbEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.BWtpHpVvMq7iGj_ocokXCksmJhXvSDxBIcQdwd8ncWzVJjtCqMv6BkHnwqTwyo23G_PMohXw3ygGLOWv8q2r0LfRL18vGXvIMGtj3SkozYLrvu0V8MIUvsZU_pb4MnQWuNhhGg4LBeqfPq0JZ13p2t7rw-lQJepJWvwG7VqK0u78oNj2OVGU9raDDtXX5rElOZerl6-2IgxtwzXdIaFZjkzwapvRpjqw9A9RD7hPC8L3mRpX55HbVGU9RyJKeA9oDAbYe5hoG4w6kRUHu9seiNTLkFFibqH-C8TCLHpZBkVRwQEBR8ypy-AmddTb2iAGSw1mxEygbtCHb39ToaG6Ow",
+        "context": "",
+        "oauthAccessToken": "ya29.a0AfB_byCldaXvyunIcihAH0A1pY8vc70rBgwjIfY3C4Z4GIDG_jHn51l8doFiDwRQ8aC_yV60K6CN8S2mbaEAefCZ2z1kJrShwnwhw5pyIrZsJhT_9kQ8BrQj7_trfNkSLxBGgEk83JM5XBhbdgE4b_rZ666iWdcDIr2xaCgYKARASARISFQHGX2MiiSg4-wASX6DD5a0bLQC9fw0171",
+        "oauthExpireIn": 3599,
+        "refreshToken": "AMf-vByzC_MWasvvrDoaKpJddiuBo1IAd4wkszR5OJTVqW9jJCzBi8CagE5Yfky1Lan0KTfKmxLh_PEB-YWisS3XDdUR0PM738E4awXC2ZUZLy8Gq3TE45RBL4dgteKgdGGODh2Q-qZJFzuSUAdJSsyS-aajaKbjnge1LgVjzqo6UaoUpyEzHUybG3V8wsakMf6SpjCnCvJpmBWOAFtb6ti8LVWU1tbl8JRMAiPO6p119Y7Alvd15YVTALebsKa7TCj8j7ph13n6_606hgjJuJr-pW0hY2_tB3lpmpW18L9n0ikQ9XtQmzWsEv2P9InvBN587FEUeA_VdRhxAs-2Bd40GJ74KUezra93JC2H4xmKAkSp_iZde1-s8tPXJEB02I9GV4m3fdY5QkfSZuXMacR0Ub93f1R_vcGmLg1rnDlhHrF6Xb2zIVI",
+        "expiresIn": "3600",
+        "oauthIdToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBlNzJkYTFkZjUwMWNhNmY3NTZiZjEwM2ZkN2M3MjAyOTQ3NzI1MDYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNzMxNjc0OTAyMjExLXBua2czaW43ZzJyNTRhc2NxYWluMGN2YnRoZzkwZ3MzLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNzMxNjc0OTAyMjExLXBua2czaW43ZzJyNTRhc2NxYWluMGN2YnRoZzkwZ3MzLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE4MjEwMzMzNDE2MDU4ODY5MjMyIiwiZW1haWwiOiJicmFqYWxhbC5wYWxAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiI0b3pWZnU2b2QtMkVSbXRES3MzRkhBIiwiaWF0IjoxNzAwOTgxOTMzLCJleHAiOjE3MDA5ODU1MzN9.hDnulxrjXbLJY4e43s9nFyFeSIVQ3QIec7t9wkvVjMoDp4ypg_ETMy5ExlbCZLdylDUvVmjVNiLHVB07nFx803_nMFE3Q8yKySpaoYKpPnZocURDON1k5UtJVq8kfwxti-DT4wVUd2HRQzy3w4q8zRws-GZW80uZ2Ou2Fxt8KIxxH6mgfIc4gnV9-jhWIo7BinFwngGcSBcFyGWlf-V1yHlKTY2Yq2ktdIMwPpz2VJACFlAbrv54EDZ8yczs-qZZ7ZI6-Y1LurXij7unOSfO7uw0HPeU9oYXP4bOA-5ZjqYbSQNzaxsmWNZFEZyc1vifZwAwAKdEMl6QDXMQqgcxrQ",
+        "rawUserInfo": "{\"name\":\"Brajalal Pal\",\"granted_scopes\":\"https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid\",\"id\":\"118210333416058869232\",\"verified_email\":true,\"given_name\":\"Brajalal\",\"locale\":\"en\",\"family_name\":\"Pal\",\"email\":\"brajalal.pal@gmail.com\",\"picture\":\"https://lh3.googleusercontent.com/a/ACg8ocIyu9yxXAi1qdzc6AJgxZY7dWoOd-hxKCUrreLXN5hE=s96-c\"}",
+        "isNewUser": true,
+        "kind": "identitytoolkit#VerifyAssertionResponse"
+    },
+    "operationType": "signIn"
+}

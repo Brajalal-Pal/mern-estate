@@ -36,4 +36,5 @@ export default {
 - npx tailwindcss init
 - npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
 
-- Add Google OAuth functionality
+- **Add Google OAuth functionality**
+

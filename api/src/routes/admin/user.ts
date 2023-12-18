@@ -1,5 +1,5 @@
 import express from "express";
-import { postUser, patchUser, deleteUserById } from "../../controller/user";
+import { postUser, getUserById } from "../../controller/user";
 
 const router = express.Router();
 
@@ -11,11 +11,11 @@ router.post(`/users`, postUser);
 /**
  * Update a user - PATCH /api/v1/users/:id
  */
-router.patch(`/users/:id`, patchUser);
+// router.patch(`/users/:id`, patchUser);
 
 /**
  * Delete a user - DELETE /api/v1/users/:id
  */
-router.delete(`/users/:id`, deleteUserById);
+router.delete(`/users/:id`, getUserById);
 
 export default router;

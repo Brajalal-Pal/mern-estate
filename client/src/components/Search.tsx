@@ -26,7 +26,7 @@ function Search() {
             setSearhResult(response.data.data);
             setLoading(false);
          })
-         .catch((err) => {
+         .catch((_err: any) => {
             //dispatch(movieFailure(err?.response?.data?.message));
             setSearhResult([]);
             setLoading(false);

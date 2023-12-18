@@ -38,3 +38,12 @@ export default {
 
 - **Add Google OAuth functionality**
 
+- Performance optimization
+https://www.youtube.com/watch?v=fq0Ag8rC5GE
+
+- GTMetrix onlined site performance test
+https://gtmetrix.com/
+
+- Local development site performance checking Google Chrome extension
+https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk
+

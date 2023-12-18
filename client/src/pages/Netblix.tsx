@@ -11,8 +11,11 @@ function Netblix() {
    const dispatch = useDispatch();
    const { movies } = useSelector((state: any) => state.movie);
    const [movieList, setMovieList] = useState<TypeMovie[]>([]);
+   // const [isLoading, setIsLoading] = useState(false);
 
    useEffect(() => {
+      console.log("Rendering started... at: ", new Date().getTime());
+      // setIsLoading(true);
       const getMovies = async () => {
          // console.log("movies", movies);
 
@@ -44,8 +47,14 @@ function Netblix() {
       };
    }, []);
 
+   // useEffect(() => {
+   //    console.log("Rendering ended... at: ", new Date().getTime());
+   //    setIsLoading(false);
+   // });
+
    return (
       <div style={{ width: "90%", marginLeft: "auto", marginRight: "auto" }}>
+         {/* {isLoading && <div className="loader"></div>} */}
          <Genre />
          <Search />
          <h1 className="text-3xl font-semibold text-center my-7">Trending top 20 Movies</h1>

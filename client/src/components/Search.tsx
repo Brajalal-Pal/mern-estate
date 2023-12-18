@@ -15,6 +15,7 @@ function Search() {
    const onSearchHandler = () => {
       setSearhResult([]);
       setLoading(true);
+      
 
       let encodedSearchTerm = search;
       axios
